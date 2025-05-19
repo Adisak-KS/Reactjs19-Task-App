@@ -1,0 +1,45 @@
+h2{
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    margin-top: 0.5rem;
+}
+
+.form-control{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.text-input{
+    flex-grow:1;
+    padding: 15px 10px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+input:focus{
+    outline: none;
+}
+
+input::placeholder {
+    font-family:"Prompt", "Roboto", sans-serif;
+    font-size: 1rem;
+  }
+
+.submit-btn{
+    background: green;
+    color:white;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border:transparent;
+    padding: 0px 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.submit-btn:hover{
+    background: rgb(1, 97, 1);
+}
